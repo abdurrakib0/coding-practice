@@ -57,11 +57,55 @@
 // console.log(dataset.size);
 
 // the for...of loop
-for (const text of 'rakib') {
-  console.log(text);
-}
+// for (const text of 'rakib') {
+//   console.log(text);
+// }
 
-var topics = ['react', 'node', 'js', 'es6'];
-for (const topic of topics) {
-  console.log(topic);
-}
+// var topics = ['react', 'node', 'js', 'es6'];
+// for (const topic of topics) {
+//   console.log(topic);
+// }
+
+// Default function parameters
+// const havefun = (activityname = 'hiking', time = '4') => {
+//   console.log(`today i will go for ${activityname} for ${time} hours`);
+// };
+
+// havefun();
+
+// Enhancing object literals
+// const cat = {
+//   meow(times) {
+//     console.log('meow  '.repeat(times));
+//   },
+//   purr(times) {
+//     console.log('purr  '.repeat(times));
+//   }
+// };
+
+// cat.meow(3);
+// cat.purr(12);
+
+// Arrow functions
+// const studentlist = students => {
+//   console.log(students);
+// };
+
+// studentlist(['joe', 'rakib', 'taskin', 'arif']);
+
+// Arrow functions and the 'this' scope
+
+const person = {
+  first: 'rakib',
+  actions: ['bike', 'cike', 'dike'],
+  print() {
+    this.actions.forEach(
+      function(action) {
+        var str = this.first + ' likes to ride ' + action;
+        console.log(str);
+      }.bind(this)
+    );
+  }
+};
+
+person.print();
