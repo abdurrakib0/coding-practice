@@ -1,0 +1,15 @@
+{
+  "name": "es6practice",
+  "version": "1.0.0",
+  "description": "i'm practicig es6 features here.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "rakib",
+  "license": "MIT",
+  "dependencies": {
+    "node": "^12.6.0",
+    "nodemon": "^1.19.1"
+  }
+}
