@@ -1,5 +1,9 @@
-here i keep updating my practice codes in different languages and framewroks. 
+# Coding practice
 
-***cheers!***
+Practice code in different languages and frameworks.
 
-if you ever feel to talk with me, say hi to **hello@rakib.xyz**
+## JavaScript
+
+1. [es6-js](javascript/es6-js): ES6 feature practice (Node project).
+
+Say hi: hello@rakib.xyz
